@@ -1,1 +1,7 @@
 ipykernel
+pandas
+pyarrow #for parquet
+fastparquet #For parquet
+seaborn
+matplotlib
+scikit-learn
