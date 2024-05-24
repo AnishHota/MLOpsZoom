@@ -5,3 +5,4 @@ fastparquet #For parquet
 seaborn
 matplotlib
 scikit-learn
+mlfow
