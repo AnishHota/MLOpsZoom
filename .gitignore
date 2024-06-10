@@ -166,3 +166,6 @@ data/
 
 #MLFlow
 mlruns/
+
+#Negating the mlops folder inside mage module-3 03-archestration
+!03-orchestration/mlops_mage/mlops
