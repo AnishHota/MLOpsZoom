@@ -1,0 +1,9 @@
+# To start MLFlow
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+
+# To start Mage
+Run docker desktop
+copy .env.dev as .env
+Modify any parameters inside the .env file( PROJECT_NAME and MAGE_CODE_PATH)
+rum cmd "docker compose up"
+open http://localhost:6789

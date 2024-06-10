@@ -33,7 +33,7 @@ The script will:
 Your task is to download the datasets and then execute this command:
 
 ```
-python preprocess_data.py --raw_data_path <TAXI_DATA_FOLDER> --dest_path ./output
+python preprocess_data.py --raw_data_path "D:\\Study\\Conda Projects\\mlops-zoom\\data\\green" --dest_path ./output
 ```
 
 Tip: go to `02-experiment-tracking/homework/` folder before executing the command and change the value of `<TAXI_DATA_FOLDER>` to the location where you saved the data.
