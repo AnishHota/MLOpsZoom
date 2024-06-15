@@ -8,3 +8,8 @@ scikit-learn
 mlfow
 hyperopt
 xgboost
+# Deployment
+pipenv
+flask # pipenv install
+gunicorn #pipenv install (Doesn't work in windows)
+waitress #pipenv install (replacement for gunicorn)
