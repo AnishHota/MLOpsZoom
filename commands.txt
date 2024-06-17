@@ -7,3 +7,6 @@ copy .env.dev as .env
 Modify any parameters inside the .env file( PROJECT_NAME and MAGE_CODE_PATH)
 rum cmd "docker compose up"
 open http://localhost:6789
+
+# To convert jupyter notebook to python file
+jupyter nbconvert --to script "notebook_name.ipynb"
