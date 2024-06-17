@@ -10,3 +10,9 @@ open http://localhost:6789
 
 # To convert jupyter notebook to python file
 jupyter nbconvert --to script "notebook_name.ipynb"
+
+# Docker build
+docker build -t ride-duration-prediction-service:v1 .
+docker run -it --rm -p 9696:9696  ride-duration-prediction-service:v1
+
+#

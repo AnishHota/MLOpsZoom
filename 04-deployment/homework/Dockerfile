@@ -8,4 +8,9 @@ WORKDIR /app
 
 COPY ["Pipfile","Pipfile.lock","./"]
 
+COPY ["starter_app.py","./"]
+
 RUN pipenv install --system --deploy
+
+EXPOSE 9696
+ENTRYPOINT ["waitress-serve", "--listen=0.0.0.0:9696", "starter_app:app"]
